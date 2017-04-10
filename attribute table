@@ -1,0 +1,24 @@
+<head>
+	<title>MappingLA</title>
+</head>
+<body>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Distance</th>
+				<th>Difficulty</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>MorningRide</td>
+				<td>5-10</td>
+				<td>Easy</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
