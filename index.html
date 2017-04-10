@@ -16,6 +16,26 @@
     	
     	<link href='css/style.css' rel='stylesheet' />
     	<link rel="stylesheet" href="css/leaflet.extra-markers.min.css">
+        
+        <div id="Biking" data-id="Route" data-distance="10" data-difficulty>route </div>
+        
+        let el = document.queryselector('#user');
+        
+        //el.id == 'biking'
+        //el.dataset.id === 'route'
+        //el.dataset.distance === '10'
+        //el.datset.difficulty === ''
+        
+        el.dataset.difficulty = 'easy'; // set the DIF.
+        
+        // 'somedataattr' in el.dataset === false
+        
+        el.dataset.somedataattr = 'mydata';
+        // 'somedataattr' in el.dataset === true
+        
+      
+
+ 
     </head>
     <body>
         <h1 id="map-title">Bike Route Map<br /><span class="small">by Amy & Nina</span></h1>
